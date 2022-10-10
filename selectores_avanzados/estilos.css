@@ -1,0 +1,31 @@
+.contenedor div{
+    display: none;
+}
+.contenedor input:focus{
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+.contenedor input[type="checkbox"]:checked~div{
+    display: block;
+}
+/*
+.contenedor p::before{
+    content: ":)";
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contenedor p::after{
+    content: ":(";
+    color: crimson;
+    font-size: 30px;
+    font-weight: bold;  
+}
+.contenedor p::first-letter{
+    font-size: 30px;
+    color: gray;
+}
+.contenedor p::selection{
+    background-color: gold;
+}*/
